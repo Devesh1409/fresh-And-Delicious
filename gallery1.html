@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<style>
+	
+.a      
+          {
+                background-color: #0000009c;
+          }
+      .navbar
+      {
+         background-image: black;
+         padding: 0;
+      }
+    .navbar-brand img
+      {
+        height: 40px;
+        padding-left: 20px;
+      }
+    .navbar-nav li
+      {
+        padding: 0 10px;
+      }
+    .navbar-nav li a
+      {
+        color: #fff!important;
+        font-weight: 600;
+        float: right;
+        text-align: left;
+      }
+    .fa-bars
+      {
+        color: #fff;
+        font-size: 30px !important;
+      }
+    .navbar-toggler
+      {
+        outline: none !important;
+
+      }
+    .border-box
+        {
+           border-style: solid;
+               border-width: unset;
+               border-color: #ef7e1e;
+          }
+      .hot{
+           font-family: 'Verlag A','Verlag B';
+               font-weight: 700;
+               font-style: normal;
+               text-transform: uppercase;
+               font-size: 48px;
+               letter-spacing: .09em;
+               line-height: 1.6em;
+               color: #796f6f;
+               text-align: center;
+          }
+      .hot1{
+               font-size: 22px;
+               font-family: 'Knockout 47 A','Knockout 47 B';
+               font-weight: 700;
+               font-style: normal;
+               text-transform: uppercase;
+               letter-spacing: .13em;
+               color: #d9d6d6;
+               text-align: center;
+      }
+      .bg{
+        background-size: cover;
+            background-position: center center;
+            height: 130%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+      }
+      .b{
+        text-align: center; 
+        position: relative;
+        top: -240px;
+        color: #22a6b3;
+        font-family: 'Goldman', cursive;
+        font-size: 65px;
+      }
+      .btn
+        {
+            text-align: center;
+            background-color: #d49f4f;
+            border-color: #d49f4f;
+            color: white;
+            position: relative;
+            left: 155px;
+        }
+      
+      .why{
+
+           background-image: url(https://www.rozzis.com.au/template/f320379a/images/food4.jpg);
+           width: 100%;
+           padding-right: 0!important;
+           padding-left: 0!important;
+           margin-right: auto;
+           margin-left: auto;
+           background-size: cover;
+           height:500px; 
+
+      }
+      .why1{
+            color: #10f9d9;
+            padding-top: 155px;
+            position: absolute;
+            top: 0;
+            max-width: 450px;
+            margin: 0 auto;
+            left: 0;
+            right: 840px;
+
+      }
+      .menu{
+        background: rgba(143,38,38,.8);
+	    height: 100%;
+	    left: 0;
+	    position: absolute;
+	    opacity: 0;
+	    top: 0;
+	    width: 100%;
+	    z-index: 8;
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    font: inherit;
+	    vertical-align: baseline;
+	       
+      }
+      
+      .c
+      {
+           background-color: black;
+        }
+        .main
+        {
+           background-image: url(https://www.rozzis.com.au/template/f320379a/images/find-store-bg.jpg);
+           
+           padding: 50px;
+           color: #fff;
+           width: 100%;
+           height: 350px;
+           position: relative;
+           top: 1031px;
+        }
+        .rew{
+          color:#f5f6fa;
+          font-size: 44px;
+          position: relative;
+           right: 224px;
+        }
+        .rew1{
+          font-weight: bolder;
+          color: #f5f6fa;
+          font-size: 20px;
+        }
+        .social{
+          color: #f5f6fa;
+          font-size: 38px;
+          margin: 5px;
+        }
+        .bgt{
+		     background-size: cover;
+		    background-repeat: no-repeat;
+		    background-position: center center;
+		    height: 100%;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    opacity: .5;
+		    width: 100%;
+		    z-index: 5
+		     margin: 0;
+		    padding: 0;
+		    border: 0;
+		    font: inherit;
+		    vertical-align: baseline;
+        }
+        .style{
+          padding-left: 1260px;
+          position: relative;
+          top: -55px;
+          font-size: 35px;
+        }
+        .hr{
+		        margin: 0;
+			    padding: 0;
+			    border: 0;
+			    font: inherit;
+			    vertical-align: baseline;
+			    border: 0;
+			    font: inherit;
+			    vertical-align: baseline;
+        }
+        .product{
+  		     font-size: 4em;
+  		    text-transform: uppercase;
+  		    font-weight: 700;
+  		    margin: 0;
+  		    padding: 0;
+  		    border: 0;
+  		    font: inherit;
+  		    vertical-align: baseline;
+  		    text-align: center;
+        }
+        .shop
+        {
+          padding: 0 40px;
+          font-size: 4.5em;
+          font-family: 'Knockout 28 A','Knockout 28 B';
+  		    font-weight: 400;
+  		    font-style: normal;
+  		    text-transform: uppercase;
+  		    font-size: 2em;
+  		    letter-spacing: .09em;
+  		    padding: 0 20px;
+  		    color: white;
+  		    text-align: center;
+        }
+        .image
+        {
+                    height: auto;
+                     max-width: 100%;
+                    vertical-align: middle;
+                    border: 0;
+        }
+        .top
+        {
+        	 overflow: hidden;
+             max-height: 780px;
+              display: flex;
+             flex-wrap: wrap;
+        }
+        .right
+        {
+          flex: 0 0 59%;
+          max-width: 59%;
+          position: relative;
+          overflow: hidden;
+          max-height: 976px;
+          box-sizing: border-box;
+
+        }       
+</style>
+<body>
+
+<section> 
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top a">    
+
+        <a href="" class="navbar-brand">
+        <img class="web-logo" src="https://imgcc-a.akamaihd.net/LocFiles/252859/636142745361397191.jpg?width=300&height=162" width="192px" >
+
+       </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+            </button>
+            
+            <div class="collapse navbar-collapse" id="a">
+        
+        <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item">
+        <a href="index1.html" class="nav-link">HOME</a></li>
+          <li class="nav-item">
+
+        <a href="menu1.html" class="nav-link">MENU</a></li>
+          <li class="nav-item">
+
+        <a href="catering1.html" class="nav-link">CATERING</a></li>
+        <li class="nav-item">
+
+        <a href="shop1.html" class="nav-link">SHOP</a></li>
+          <li class="nav-item">
+
+        <a href="gallery1" class="nav-link">GALLERY</a></li>
+          <li class="nav-item">
+
+        <a href="" class="nav-link">CONTACT</a></li>
+        <li class="nav-item">
+
+        <a href="" class="nav-link">FIND US</a></li>
+        <li class="nav-item">
+
+        <a href="" class="nav-link border-box">ORDER ONLINE</a></li>
+        <li class="nav-item">
+        
+        <a href="" class="nav-link">CART
+        <i class="fas fa-shopping-cart" aria-hidden="true"></i></a></li>
+        
+
+
+                
+      
+     </ul> 
+</div>
+    </div>
+     
+</nav>
+</section>
+<section><!--section start-->
+  <div class="top">
+  		<img class="image" src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60">
+    <div class="why1">
+      <h2>"fresh, fast"<br>
+        & handmade
+      </h2>
+      <p>All of Rozzis food is prepared daily at our restaurants to ensure the highest quality, freshest meals are delivered to our customers.</p>
+      <p>This means that each Rozzi’s store will have different dishes focused on seasonal produce, market availablility and of course, our regular’s favourites!</p>
+  	</div>
+    <div class="right">
+      <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60">
+    </div>
+  </div>
+  
+ </section><br><br>
+</body>
+</html>
