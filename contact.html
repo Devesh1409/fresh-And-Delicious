@@ -19,16 +19,15 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <style>
-  
-.a      
+          .a      
           {
                 background-color: #0000009c;
           }
-      .navbar
-      {
-         background-image: black;
-         padding: 0;
-      }
+          .navbar
+          {
+             background-image: black;
+             padding: 0;
+          }
     .navbar-brand img
       {
         height: 40px;
@@ -62,7 +61,7 @@
                border-color: #ef7e1e;
           }
       .hot{
-           font-family: 'Verlag A','Verlag B';
+               font-family: 'Potta One',cursive;
                font-weight: 700;
                font-style: normal;
                text-transform: uppercase;
@@ -85,13 +84,8 @@
                text-align: center;
       }
       .bg{
-        background-size: cover;
-            background-position: center center;
-            height: 130%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            width: 100%;
+            font-family: 'Potta One',cursive;
+            
       }
       .b{
         text-align: center; 
@@ -108,8 +102,10 @@
             border-color: #d49f4f;
             color: white;
             position: relative;
-            left: 15px;
-            top: 70px;
+            left: 153px;
+            top: 9px;
+            margin:3px;
+            width: 96px;
         }
          .btn1
         {
@@ -317,6 +313,11 @@
           bottom: 1px;
           right: 27px;
           padding: 3px;
+        }
+        .d{
+          width: 500px;
+          height: 840px; 
+          background: #f5ecaf;
         }   
 </style>
 <body>
@@ -355,7 +356,7 @@
         <a href="contact.html" class="nav-link">CONTACT</a></li>
         <li class="nav-item">
         
-       <a href="" class="nav-link">CART
+       <a href="cart.html" class="nav-link">CART
         <li class="nav-item">
         <i class="fa fa-shopping-bag z" aria-hidden="true"></i></li></a></li>    
       </ul> 
@@ -376,60 +377,81 @@
     </div>
   </div>
  </section><br><br>
-  <div class="container">
-       <h1 class="text-center" style="margin-top: -35px;">CONTACT US</h1>
-      <div class="row">
-        <div class="col-md-12 last">
-          <div class="card shadow" style="width: 500px;height: 810px; background: #f5ecaf;" >
-            <div class="card-body">
-              <center><h3 class="bg text-info">SIGNUP</h3></center><br>
-              <form>
-                <div class="form-group">
-                  <label>Name:</label>
-                  <input type="text" name="" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label>Email:</label>
-                  <input type="text" name="" class="form-control" placeholder="@gmail.com">
-                </div>
+<div class="container d">
+    <br><br>
+    <h1 class="text-center" style="margin-top: -35px;">CONTACT US</h1>
+    <form>
+      <div class="form-group ">
+        <label>Username:</label>
+        <input type="text" name="" class="form-control">
+      </div>
 
-                <div class="form-group">
-                  <label>Mobile no.:</label>
-                  <input type="number" name="" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label>Address:</label>
-                  <input type="text" name="" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label>D.O.B:</label>
-                  <input type="date" name="" class="form-control">
-                  
-                </div>
-                <div class="form-group">
-                  <label>Gender:</label><br>
-                  <input type="radio" name="Male"> Male<br>
-                  <input type="radio" name="Male"> female
-                </div>
-                <div class="form-group">
-                  <label>Password:</label>
-                  <input type="password" name="" class="form-control">
-                  
-                </div>
-                <div class="form-group">
-                  <label>Confirm password:</label>
-                  <input type="password" name="" class="form-control">
-                  
-                </div>
-                <input type="submit" name="" value="Signup" class="btn1 btn-info">
-                <input type="submit" name="" value="login" class="btn1 btn-info">
-              </form>
-            </div>
-          </div>
+      <div class="form-group">
+        <label>Password:</label>
+        <input type="Password" name="" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Confirm Password:</label>
+        <input type="Password" name="" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="text" name="" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>D.B.O:</label>
+        <input type="date" name="" class="form-control">
+      </div>
+       <div class="form-group">
+          <label>Mobile no.:</label>
+          <input type="number" name="" class="form-control">
         </div>
-      </div>          
-  </div><br>
-<div class="container-fluid main">
+        <div class="form-group">
+           <label>Gender:</label><br>
+          <input type="radio" name="Male"> Male<br>
+          <input type="radio" name="Male"> female
+        </div>
+      <div class="form-group">
+        <label>Address:</label>
+        <input type="text" name="" class="form-control">
+      </div>
+      <input type="submit" name="" class="btn1 btn-info">
+        <button type="button" class="btn1 btn-primary" data-toggle="modal" data-target="#aa">Login</button>
+</form>
+</div>
+  <div class="modal fade" id="aa">
+  <div class="modal-dialog" >
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title"></h5>
+ 
+       <div class="card shadow" style="width: 465px; background: #f5ecaf;" >
+       <div class="card-body">
+        <form>
+        <center><h3 class="bg text-info">Login</h3></center>
+
+        <div class="form-group ">
+        <label>Username:</label>
+        <input type="text" name="" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Password:</label>
+         <input type="Password" name="" class="form-control">
+      </div>
+        <button  class="btn btn-info">Login</button>
+           <button type="button" class="" data-dismiss="modal" style="position: relative;left: 322px;bottom: 246px;">
+             <span>&times;</span>
+           </button>
+         </form>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+ <div class="container-fluid main">
     <div class="row">
       <div class="col-md-7">
 
@@ -439,17 +461,15 @@
 
          <div class="col-md-6">
            <b class="rew1">Address</b></h2>
-           <p>B6/22, 1st Floor, Safdarjung Enclave, Mumbai 110029, INDIA</p>
+           <p>Preetam Puram Colony Guda Lashkar Gwalior 474001</p>
           </div>
 
           <div class="col-md-6">
             <b class="rew1">Other Enquiry</b></h2>
-            <p>Moblie:<b style="color: #f5f6fa;">+91 9313663486</b></p>
-            <p style="position: relative;top: -20px;">Email: <b style="color: #f5f6fa;">customercare@fresh&delicious.in</b></p>
+            <p>Moblie:<b style="color: #f5f6fa;">+91 9009946105</b></p>
+            <p style="position: relative;top: -20px;">Email: <b style="color: #f5f6fa;">deveshbhargav2000@gmail.com</b></p>
           </div>
         </div>
-
-
         <div>
           <a href="https://www.facebook.com/">
           <i class="fa fa-facebook social" ></i>
@@ -476,19 +496,17 @@
       
 
 
-        </div><!--end container fliud-->
+        </div>
         </div><!--end row-->
-
-        </div><!--end  navbarbrands-->
+         </div><!--end  navbarbrands-->
     
         </div>
-
   <div class="container-fluid c">
   <div class="container">
   <p style="color: white;" class="text-center">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG<br>
       COPYRIGHT © 2019 FIRST FIDDLE F&B PRIVATE LIMITED</p>
   
-  </div><!-- end container -->
-  </div><!-- end cintainer-fluid -->
+  </div> <!-- end container-->
+  </div> <!-- end container-fluid -->
 </body>
 </html>
