@@ -124,10 +124,10 @@
 
            background-image: url(https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
            width: 100%;
-           padding-right: 0!important;
+          /* padding-right: 0!important;
            padding-left: 0!important;
            margin-right: auto;
-           margin-left: auto;
+           margin-left: auto;*/
            background-size: cover;
            height:500px; 
 
@@ -143,23 +143,6 @@
             right: 840px;
 
       }
-      .menu{
-        background: rgba(143,38,38,.8);
-      height: 100%;
-      left: 0;
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      width: 100%;
-      z-index: 8;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font: inherit;
-      vertical-align: baseline;
-         
-      }
-      
       .c
       {
            background-color: black;
@@ -189,134 +172,11 @@
           font-size: 38px;
           margin: 5px;
         }
-        .bgt{
-         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: .5;
-        width: 100%;
-        z-index: 5
-         margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        }
-        .style{
-          padding-left: 1260px;
-          position: relative;
-          top: -55px;
-          font-size: 35px;
-        }
-        .hr{
-            margin: 0;
-          padding: 0;
-          border: 0;
-          font: inherit;
-          vertical-align: baseline;
-          border: 0;
-          font: inherit;
-          vertical-align: baseline;
-        }
-        .product{
-           font-size: 4em;
-          text-transform: uppercase;
-          font-weight: 700;
-          margin: 0;
-          padding: 0;
-          border: 0;
-          font: inherit;
-          vertical-align: baseline;
-          text-align: center;
-        }
-        .shop
-        {
-          padding: 0 40px;
-          font-size: 4.5em;
-          font-family: 'Knockout 28 A','Knockout 28 B';
-          font-weight: 400;
-          font-style: normal;
-          text-transform: uppercase;
-          font-size: 2em;
-          letter-spacing: .09em;
-          padding: 0 20px;
-          color: white;
-          text-align: center;
-        }
-        .image
-        {
-                    height: 560px;
-                     max-width: 100%;
-                    vertical-align: middle;
-                    border: 0;
-                    width: 553px;
-        }
-        .top
-        {
-           overflow: hidden;
-             max-height: 780px;
-              display: flex;
-             flex-wrap: wrap;
-             box-sizing: border-box;
-        }
-        .right
-        {
-          flex: 0 0 59%;
-          max-width: 59%;
-          position: relative;
-          overflow: hidden;
-          max-height: 976px;
-          box-sizing: border-box;
-         
-        }
-        .middle
-        {
-          overflow: hidden;
-          max-height: 640px;
-           position: relative;
-          display: flex;
-          flex-wrap: wrap;
-          box-sizing: border-box;
-        }   
-        .left
-        {
-          flex: 0 0 65%;
-         max-width: 65%;
-         position: relative;
-         box-sizing:border-box;
-        }
-        .bottom
-        {
-              max-height: 780px;
-              position: relative;
-              overflow: hidden;
-              display: flex;
-              flex-wrap: wrap;
-              box-sizing: border-box;
-        } 
-        .last
-        {
-              position: relative;
-              width: 100%;
-              padding-right: 15px;
-              padding-left: 295px;
-              padding-top: 30px;
-        }   
-        .z
-        {
-           color: white;
-          position: relative;
-          bottom: 1px;
-          right: 27px;
-          padding: 3px;
-        }
+      
+  
         .d{
           width: 500px;
-          height: 840px; 
+          height: 860px; 
           background: #f5ecaf;
         }   
 </style>
@@ -363,7 +223,7 @@
     </div>     
 </nav>
 </section>
-<section><!--section start-->
+<!--section start-->
   <div class="container-fluid why">
     <div class="container">
       <div class="row">
@@ -376,44 +236,51 @@
       </div>
     </div>
   </div>
- </section><br><br>
+<br><br>
 <div class="container d">
     <br><br>
     <h1 class="text-center" style="margin-top: -35px;">CONTACT US</h1>
     <form>
       <div class="form-group ">
+        <i class="fa fa-user"></i>
         <label>Username:</label>
         <input type="text" name="" class="form-control">
       </div>
 
       <div class="form-group">
+        <i class="fa fa-key"></i>
         <label>Password:</label>
         <input type="Password" name="" class="form-control">
       </div>
       <div class="form-group">
+        <i class="fa fa-key"></i>
         <label>Confirm Password:</label>
         <input type="Password" name="" class="form-control">
       </div>
       <div class="form-group">
+        <i class="fa fa-envelope"></i>
         <label>Email:</label>
         <input type="text" name="" class="form-control">
       </div>
       <div class="form-group">
+        <i class="fa fa-calendar-week" aria-hidden="true"></i>
         <label>D.B.O:</label>
         <input type="date" name="" class="form-control">
       </div>
        <div class="form-group">
+        <i class="fa fa-phone" aria-hidden="true"></i>
           <label>Mobile no.:</label>
           <input type="number" name="" class="form-control">
         </div>
         <div class="form-group">
-           <label>Gender:</label><br>
-          <input type="radio" name="Male"> Male<br>
-          <input type="radio" name="Male"> female
+          <label>Gender:</label><br>
+          <input type="radio" name="Male"> <i class="fa fa-male"></i><br>
+          <input type="radio" name="Male"> <i class="fa fa-female"></i>
         </div>
       <div class="form-group">
+        <i class="fa fa-address-book"></i>
         <label>Address:</label>
-        <input type="text" name="" class="form-control">
+        <textarea  class="form-control" type="text"></textarea>
       </div>
       <input type="submit" name="" class="btn1 btn-info">
         <button type="button" class="btn1 btn-primary" data-toggle="modal" data-target="#aa">Login</button>
@@ -431,11 +298,13 @@
         <center><h3 class="bg text-info">Login</h3></center>
 
         <div class="form-group ">
+          <i class="fa fa-user"></i>
         <label>Username:</label>
         <input type="text" name="" class="form-control">
       </div>
 
       <div class="form-group">
+        <i class="fa fa-key"></i>
         <label>Password:</label>
          <input type="Password" name="" class="form-control">
       </div>
